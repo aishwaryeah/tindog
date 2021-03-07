@@ -1,0 +1,196 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+  font-weight: 800;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+a{
+  color: #000;
+}
+
+a:hover{
+  color: #505050;
+}
+
+.big-heading{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+  font-family: Montserrat;
+}
+
+.btn-padding{
+  padding-left: 10px;
+}
+
+/* Title Section */
+#title{
+  text-align: left;
+}
+
+/* Title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+#features{
+  padding: 7% 13%;
+  position: relative;
+}
+
+.feature-title{
+  margin-top: 1rem;
+}
+
+.align{
+  padding: 0 10%;
+}
+
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c58;
+}
+
+/* testimonial Section */
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.card-height{
+  line-height: 0.9;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* Call to Action */
+#cta{
+  padding: 3% 15%;
+}
+
+
+/* Footer */
+#footer{
+  padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.copyright{
+  margin-top: 20px;
+}
